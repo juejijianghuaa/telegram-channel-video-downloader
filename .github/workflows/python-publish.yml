@@ -23,3 +23,8 @@ jobs:
 
     - name: Run Python script
       run: python main.py
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+          name: pg
+          path: files/PandaGroovePG
