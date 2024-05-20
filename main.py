@@ -12,8 +12,8 @@ from telethon.tl.types import MessageMediaDocument
 # 填写资料点击创建 会生成 api_id api_hash
 # 网页点击create application按钮创建时 经常会提示失败
 # 没有明确的解决方法 在不同的时段多试几次 有几率就成功了 有时候好几天都不行
-api_id = 0
-api_hash = ''
+api_id = 26183977
+api_hash = 'f20004c868bd9e626e6bf815343518ee'
 
 # 定义会话名称，可以随便指定，确保唯一即可
 #
@@ -24,13 +24,12 @@ api_hash = ''
 session = str(api_id) + '_session'
 
 # 消息偏移点 id，表示从哪一条消息开始下载，可以忽略之前已经处理过的消息
-offset_id = 0
+offset_id = 318
 
 # 每次查询的消息数量
-message_limit = 100
-
+message_limit = 1
 # 想要下载的频道用户名，如果频道地址是 https://t.me/abc，那么频道名称为 "abc"
-channel_username = ''
+channel_username = 'PandaGroovePG'
 # ************************************************************
 #                       配置结束
 # ************************************************************
@@ -92,26 +91,28 @@ async def download_media():
     offset = offset_id
     while True:
 
-        # 每次查询 100 条消息
+        # 每次查询 5 条消息
         messages = await client.get_messages(channel_entity, limit=message_limit, reverse=True, offset_id=offset)
         print("\n查到消息数量: ", len(messages), '偏移id', offset)
+        # print("\n查到消息: ", messages, '偏移id', offset)
         if not messages:
             break
         for message in messages:
             if message.media and isinstance(message.media,
-                                            MessageMediaDocument) and 'video' in message.media.document.mime_type:
+                                            MessageMediaDocument) and 'zip' in message.media.document.mime_type:
 
-                # 只保留mp4
-                if message.media.document.mime_type != 'video/mp4':
+                # 只保留zip
+                print("\nmime_type: ", message.media.document.attributes[0].file_name)
+                if message.media.document.mime_type != 'application/zip':
                     continue
 
-                file_path = 'media/' + channel_username + "/"
+                file_path = 'files/' + channel_username + "/"
 
                 # 如果是消息组 那么保存到同一个文件夹里
                 if message.grouped_id is not None:
-                    file_name = f"{message.grouped_id}/{message.id}.mp4"
+                    file_name = f"{message.grouped_id}/{message.id}.zip"
                 else:
-                    file_name = f"{message.id}.mp4"
+                    file_name = f"{message.media.document.attributes[0].file_name}.zip"
 
                 file_name = file_path + file_name
                 print("\n开始下载: ", file_name)
