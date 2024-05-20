@@ -41,7 +41,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        cp -r pg/* .
+        cp -r pg/* pg/.
         git add .
         git commit -m "Add unzipped files"
         git push origin ${{ github.ref }}
