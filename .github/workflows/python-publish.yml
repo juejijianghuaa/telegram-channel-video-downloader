@@ -39,7 +39,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        cp -r extracted_files/* .
+        cp -r pg/* .
         git add .
         git commit -m "Add unzipped files"
         git push origin ${{ github.ref }}
