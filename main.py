@@ -92,9 +92,10 @@ async def download_media():
     while True:
 
         # 每次查询 5 条消息
-        messages = await client.get_messages(channel_entity, limit=message_limit, reverse=True, offset_id=offset)
+        # messages = await client.get_messages(channel_entity, limit=message_limit, reverse=True, offset_id=offset)
+        messages = await client.get_messages(channel_entity, limit=1, reverse=False)
+
         print("\n查到消息数量: ", len(messages), '偏移id', offset)
-        # print("\n查到消息: ", messages, '偏移id', offset)
         if not messages:
             break
         for message in messages:
@@ -118,9 +119,9 @@ async def download_media():
                 print("\n开始下载: ", file_name)
                 await client.download_media(message=message, file=file_name,
                                             progress_callback=upload_progress_callback)
-
-        # 更新偏移量
-        offset = offset + message_limit
+        break
+        # # 更新偏移量
+        # offset = offset + message_limit
 
 
 print('starting....')
