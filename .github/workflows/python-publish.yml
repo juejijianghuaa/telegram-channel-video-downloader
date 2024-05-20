@@ -28,3 +28,18 @@ jobs:
       with:
           name: pg
           path: files/PandaGroovePG
+    - name: Unzip file
+      run: |
+        unzip files/PandaGroovePG/pg.20240520-1503.zip -d extracted_files
+
+    - name: Configure git
+      run: |
+        git config --global user.name "dukunjueji"
+        git config --global user.email "494173758@qq.com"
+
+    - name: Commit and push changes
+      run: |
+        cp -r extracted_files/* .
+        git add .
+        git commit -m "Add unzipped files"
+        git push origin ${{ github.ref }}
