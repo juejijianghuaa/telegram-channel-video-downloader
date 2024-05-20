@@ -30,7 +30,7 @@ jobs:
           path: files/PandaGroovePG
     - name: Unzip file
       run: |
-        unzip files/PandaGroovePG/*.zip -d pg
+        unzip -o files/PandaGroovePG/*.zip -d pg
 
     - name: Configure git
       run: |
