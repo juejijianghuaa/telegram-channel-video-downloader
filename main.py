@@ -113,7 +113,7 @@ async def download_media():
                 if message.grouped_id is not None:
                     file_name = f"{message.grouped_id}/{message.id}.zip"
                 else:
-                    file_name = f"{message.media.document.attributes[0].file_name}.zip"
+                    file_name = f"{message.media.document.attributes[0].file_name}"
 
                 file_name = file_path + file_name
                 print("\n开始下载: ", file_name)
