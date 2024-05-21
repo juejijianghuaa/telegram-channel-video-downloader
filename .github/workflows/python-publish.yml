@@ -32,10 +32,10 @@ jobs:
         unzip -o "files/PandaGroovePG/*.zip" -d pg
         rm -rf files/PandaGroovePG/*
 
-    - name: Configure git
-      run: |
-        git config --global user.name "dukunjueji"
-        git config --global user.email "494173758@qq.com"
+    # - name: Configure git
+    #   run: |
+    #     git config --global user.name "dukunjueji"
+    #     git config --global user.email "494173758@qq.com"
 
     - name: Commit and push changes
       run: |
