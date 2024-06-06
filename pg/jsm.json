@@ -83,6 +83,23 @@
 			"indexs":1
 		},
 		{
+			"key":"Youtube",
+			"name":"Youtube",
+			"type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext":{
+				"type":"8K#4K#HDR#movie#music#documentary",
+				"proxy":"proxy"
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
+		{
 			"key":"bili",
 			"name":"B站 | Bili[jar]",
 			"type":3,
