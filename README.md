@@ -1,4 +1,5 @@
 # 更新记录 
+* pg.20240607-2002.zip csp_Youtube支持頻道視頻列表和播放列表，搜索時自動識別。嘗試支持youtube字幕，但似乎不成功。
 * pg.20240607-1257.zip /proxy?do=yt改为老的方式播放，只有加载失败时才尝试新的csp_Youtube方式播放。csp_Youtube相关性推荐从20个增加到60个。
 * pg.20240607-0954.zip 修复yt直播。tokenm.json中增加"youtube_proxy"配置项，在push中推送任意youtube地址也可以用上指定代理了呢。因为push完全接管了youtube链接，所以之前说android9以下用csp不能播youtube的可能现在用推送也不能播了。。。。修复了一个长期以来的初始化问题，在低端设备上jar初始化被中断而导致加速SO异常的情况会大幅减少
 * pg.20240606-2324.zip 優化團長（csp_TZFile），中國高清網(csp_Gaoqing），愛看機器人(csp_Ikanbot)，使用最新的過盾技術，提高頁面載入成功率
