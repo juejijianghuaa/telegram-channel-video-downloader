@@ -92,7 +92,8 @@
 			"changeable": 0,
 			"ext":{
 				"type":"直播#新闻#音乐#体育#剧集#电影#8K#4K#HDR#movie#music#documentary",
-				"proxy":"proxy"
+				"proxy":"proxy",
+				"codecs":""
 			},
 			"style": {
 				"type": "rect",
