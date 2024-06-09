@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20240609-1040.zip csp_Youtube增加视频时长显示。
+* pg.20240609-1200.zip csp_Youtube增加视频时长显示。
 * pg.20240609-1007.zip csp_Youtube优化频道列表，不再加载频道全部视频，改为 以频道名称搜索视频
 * pg.20240609-0743.zip csp_Youtube修复翻页问题，优化lib/youtube.json
 * pg.20240609-0626.zip csp_Youtube修复分类导致的播放列表和频道视频无法播放问题。修改json的分类加载机制，filters中的名称会完全替换分类搜索关键词（之前是两者相加），具体例子参考lib/youtube.json
