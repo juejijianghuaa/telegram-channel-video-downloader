@@ -33,12 +33,28 @@
 			"type_name":"体育"
 		},
 		{
+			"type_id":"科技",
+			"type_name":"科技"
+		},
+		{
+			"type_id":"神秘",
+			"type_name":"神秘"
+		},
+		{
+			"type_id":"老高",
+			"type_name":"老高"
+		},
+		{
+			"type_id":"解说",
+			"type_name":"解说"
+		},
+		{
 			"type_id":"野性",
-			"type_name":"野生"
+			"type_name":"野性"
 		},
 		{
 			"type_id":"风景",
-			"type_name":"风光"
+			"type_name":"风景"
 		},
 		{
 			"type_id":"放松",
@@ -51,6 +67,14 @@
 		{
 			"type_id":"4K",
 			"type_name":"4K"
+		},
+		{
+			"type_id":"经济",
+			"type_name":"经济"
+		},
+		{
+			"type_id":"课程",
+			"type_name":"课程"
 		}
 	],
 	"filters":{
