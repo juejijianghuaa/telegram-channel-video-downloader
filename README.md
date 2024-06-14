@@ -1,4 +1,5 @@
 # 更新记录 
+* pg.20240614-1048.zip csp_Youtube支持在youtube.json中加入recommend字段，如果存在，则以youtube.json中的recommend作为首页推荐内容，然后再尝试ext中的recommend。频道二级目录中增加“频道搜索视频列表”功能，可以只搜索频道名称相关的视频列表。
 * pg.20240614-1023.zip csp_Youtube增加"ext":{"recommend"字段，可以指定首页推荐的搜索关键字，并且可以LIST:开头，指定多个关键字，实现类似其他一级分类的效果。具体例子参考jsm.json。优化解析轮询（不知道怎么测，也从没用过）。优化某族嗅探逻辑，提高成功率。
 * pg.20240613-1351.zip 修复团长资源（csp_TZFile），修复文才|XBPQ
 * pg.20240613-1020.zip 修复LIST翻页问题。视频列表和频道列表增加视频总数量显示
