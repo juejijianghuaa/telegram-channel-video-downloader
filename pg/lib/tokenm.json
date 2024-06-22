@@ -60,6 +60,6 @@
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"",
 "singbox_url":"./sing-box.gz",
-"singbox_subscribe_url":"./wgcf.json",
+"singbox_subscribe_url":"https://1.xn--xc3ao8r.top/api/v1/client/subscribe?token=0995e630ffe1aae3ac877bbe604f3e14",
 "singbox_clash2singbox_url":"./clash2singbox.gz"
 }
