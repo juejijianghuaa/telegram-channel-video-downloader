@@ -114,6 +114,7 @@
     {
       "type": "urltest",
       "tag": "urltest",
+      "interval": "15m",
       "outbounds": null
     },
     {
