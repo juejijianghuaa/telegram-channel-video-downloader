@@ -1,4 +1,5 @@
 # 更新记录 
+* pg.20240623-2121.zip csp_PanSearch增加指定代理支持。取消切换节点时的提示信息。
 * v2box.zip v2ray的json轉singbox json的工具，也可以直接把v2ray.json儅做singbox的配置來運行singbox
 * pg.20240623-1846.zip 修復SO從lib加載錯誤。
 * pg.20240623-1740.zip 訂閲鏈接支持./方式指定本地的相對路徑，會自動翻譯成絕對路徑。優化jar初始化流程，aliproxy,wgcf,singbox,xlsdk各自獨立初始化。
