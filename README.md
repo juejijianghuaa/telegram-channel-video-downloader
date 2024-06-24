@@ -1,4 +1,5 @@
 # 更新记录 
+* pg.20240624-1344.zip csp_Youtube修复限制编码格式失效问题，现在可以真的限制编码格式了，可以广谱适应多种盒子和TV，而且默认状态下，会检测盒子的VP9支持能力，如果不支持VP9会自动隐去VP9编码。
 * pg.20240623-2121.zip csp_PanSearch增加指定代理支持。取消切换节点时的提示信息。
 * v2box.zip v2ray的json轉singbox json的工具，也可以直接把v2ray.json儅做singbox的配置來運行singbox
 * pg.20240623-1846.zip 修復SO從lib加載錯誤。
