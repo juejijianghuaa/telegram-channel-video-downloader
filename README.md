@@ -1,4 +1,5 @@
 # 更新记录 
+* pg.20240628-1029.zip 尝试修复订阅地址修改后不能更新列表的问题。
 * pg.20240628-0833.zip 优化修复 cable doll eighteen miss netflav top888 xojav
 * pg.20240627-2131.zip 修复csp_Eighteen
 * pg.20240627-1525.zip 修复J某BUS
