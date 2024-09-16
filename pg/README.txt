@@ -59,5 +59,15 @@ tokenm.json格式説明：
 "pikpak_thread_limit":2,
 "pikpak_vip_thread_limit":2,
 "pikpak_proxy":"用於科學上網連接PikPak網盤的代理服務器地址",
-"pikpak_proxy_onlyapi":false
+"pikpak_proxy_onlyapi":false,
+"pan115_cookie":"",
+"pan115_thread_limit":0,
+"pan115_vip_thread_limit":0,
+"pan115_is_vip":false,
+"pan115_flags":"4kz",
+"pan115_auto_delete":true,
+"pan115_delete_code":"",
+"pan115_speed_limit":0,
+"pan115_speed_limit_mobile":10485760,
+"pan_order":"ali|quark|uc|115|yd|thunder|pikpak"
 }
