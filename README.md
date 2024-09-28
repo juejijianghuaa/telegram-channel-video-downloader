@@ -3,7 +3,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.黑科技再升级，tgsearch已可以直接内置到手机运行，无需服务器部署（需要使用本频道另外提供的tgsearch多平台包到其他运行环境获取一次sessionstring），相关配置在网盘设置-》网盘相关配置。彻底降伏了python编译成静态化后在安卓的安全性高压环境中运行的难题，没有黑科技真是寸步难行。
-1.修复tgsearch缓存异步加载问题。彻底实现群组内容无感更新。jar加载后除了首次搜索略慢，之后搜索永远快如闪电。
+2.修复tgsearch缓存异步加载问题。彻底实现群组内容无感更新。jar加载后除了首次搜索略慢，之后搜索永远快如闪电。
 * tgsearchpack.20240928-2355.zip tgsearch多平台独立运行文件，使用./tgsearch
 -h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。TG
 api改为短连接解决TG断连问题。允许小于8位的api_id。修复stringsession问题。修复android平台无法在app中运行的问题。修复代理 设置等相关问题。修复arm64v8无法在android运行的问题。支持对结果编码，防止外网vps使用时容易触发GFW规则。增加搜索分页功能。内置了赵总贡献的api_id，省去申请api_id的步骤。赵总说他要生10个儿子。
