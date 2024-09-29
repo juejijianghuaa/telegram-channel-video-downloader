@@ -1,0 +1,10 @@
+services:
+        tgsearch.arm64:
+                image: "pandagroove/tgsearch:1.0.0-alpine-arm64"
+                environment:
+                        API_ID: ""
+                        API_HASH: ""
+                        STRINGSESSION: ""
+                        API_PROXY: ""
+                ports:
+                        - 10199:10199
