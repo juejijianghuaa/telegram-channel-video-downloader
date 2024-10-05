@@ -1,25 +1,5 @@
 # 更新记录 
-* tgsearch.docker-20241005-1625.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：
-1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
-2.优化异步并发效率，提高了多个群组和频道的搜索速度。
-3.忽略ssl错误。
-4.TG搜索改用POST方法
-5.修复TG免登录搜索结果中的时间错误问题。
-* tgsearch.docker.arm64-20241005-1625.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：
-1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
-2.优化异步并发效率，提高了多个群组和频道的搜索速度。
-3.忽略ssl错误。
-4.TG搜索改用POST方法
-5.修复TG免登录搜索结果中的时间错误问题。
-* pg.20241005-1631.zip 【对不起，我是阿里不限速网盘资源全秒播
+* pg.20241005-2112.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 阿里,UC,夸克使用本zip包不限速，阿里原画不需要svip也不用三方权益包，播放阿里内容不需要115账号秒传也不需要115VIP会员，115的分享内容无需付费即可欣赏，115分享大包和阿里分享大包不用建索引全部秒搜，UC原画不需要会员，夸克原画非会员3G以内的视频随意看，88VIP80G以内的视频随便看。所有网盘全自动删除转存垃圾文件，不限次数。所有网盘资源3秒起播让等待归零。可能是地球上唯一一个可以流畅在线播放ISO原盘的zip（注：使用外部播放器播放原盘ISO需要在任务列表中把影视锁定不被杀掉后台才能稳定播放）。注意：不支持仅使用jar，必须zip完整解压使用。网盘原画仅支持原版的影视、OK影视、EasyBox。對本zip内的核心jar的魔改或縫合都會導致網盤原畫不可播放。多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常】
@@ -30,7 +10,8 @@
 3.TG免登录和登录后搜索都可以指向同一个地址了，例如http://127.0.0.1:10199，因为使用了异步并发方式，因此不再支持直接指定到https://t.me，必须指向最新版tgsearch所提供的服务
 4.TG搜索使用POST方法，避免群组或频道过多导致URL超长。
 5.修复TG免登录搜索结果中时间错误问题。
-* tgsearchpack.20241005-1619.zip tgsearch多平台独立运行文件，使用./tgsearch
+6.修复TG免登录搜索的域名和代理问题。
+* tgsearchpack.20241005-2102.zip tgsearch多平台独立运行文件，使用./tgsearch
 -h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
@@ -41,6 +22,29 @@
 3.忽略ssl错误。
 4.改用post方法防止url过长。
 5.修复频道搜索中帖子时间错误问题。
+6.修复TG免登录搜索的域名和代理问题。
+* tgsearch.docker-20241005-2102.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
+2.优化异步并发效率，提高了多个群组和频道的搜索速度。
+3.忽略ssl错误。
+4.TG搜索改用POST方法
+5.修复TG免登录搜索结果中的时间错误问题。
+6.修复TG免登录搜索的域名和代理问题。
+* tgsearch.docker.arm64-20241005-2103.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
+2.优化异步并发效率，提高了多个群组和频道的搜索速度。
+3.忽略ssl错误。
+4.TG搜索改用POST方法
+5.修复TG免登录搜索结果中的时间错误问题。
+6.修复TG免登录搜索的域名和代理问题。
 * pg.20241004-2009.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
