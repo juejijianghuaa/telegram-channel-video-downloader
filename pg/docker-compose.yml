@@ -1,0 +1,13 @@
+services:
+        tgsearch:
+                image: "pandagroove/tgsearch:1.2.2-alpine"
+                environment:
+                        - API_ID=
+                        - API_HASH=
+                        - STRINGSESSION=
+                        - API_PROXY=
+                ports:
+                        - 10199:10199
+                expose:
+                        - "10199"
+                restart: always

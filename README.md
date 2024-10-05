@@ -1,4 +1,29 @@
 # 更新记录 
+* tgsearch.docker-20241005-1257.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
+2.优化异步并发效率，提高了多个群组和频道的搜索速度。
+3.忽略ssl错误。
+* tgsearch.docker.arm64-20241005-1257.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
+2.优化异步并发效率，提高了多个群组和频道的搜索速度。
+3.忽略ssl错误。
+* tgsearchpack.20241005-1254.zip tgsearch多平台独立运行文件，使用./tgsearch
+-h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：（更多信息查看包内README.txt）
+1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
+2.优化异步并发效率，提高了多个群组和频道的搜索速度。
+3.忽略ssl错误。
 * pg.20241005-1134.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
@@ -8,16 +33,6 @@
 1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
 2.优化异步并发效率，提高了多个群组和频道的搜索速度。
 3.TG免登录和登录后搜索都可以指向同一个地址了，例如http://127.0.0.1:10199，因为使用了异步并发方式，因此不再支持直接指定到https://t.me，必须指向最新版tgsearch所提供的服务
-* tgsearchpack.20241005-1128.zip tgsearch多平台独立运行文件，使用./tgsearch
--h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：（更多信息查看包内README.txt）
-1.tgsearch支持/s/路径搜索，可以直接免登录搜索tg频道，而且支持了缓存和分页，并支持海报展示。
-2.优化异步并发效率，提高了多个群组和频道的搜索速度。
-* tgsearch.docker-20241005-1128.zip 
-* tgsearch.docker.arm64-20241005-1128.zip 
 * pg.20241004-2009.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
