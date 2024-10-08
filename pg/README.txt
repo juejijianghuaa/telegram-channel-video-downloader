@@ -1,77 +1,71 @@
-有缘人注意：本zip目前僅支持"影視","OK影視","EasyBox"使用，其他播放器或基於影視魔改的播放器使用本zip都會導致網盤内容無法播放。對本zip内的核心jar所作的任何魔改、縫合都會導致網盤原畫不可播放。
-* 本ZIP所加载的资源完全来自网上公开分享的内容，若有版权问题请联系相关网站删除，本ZIP只读取和播放网络公开资源，既不维护也不储存任何网络资源。
+本zip包内容只为想要自己申请API_ID或自己获取API_SESSION的有缘人准备，如果你不想如此麻烦，可以直接使用在线地址：
+**********************
+http://tg.seczh.com
+**********************
+把上述地址直接配置到网盘配置-》网盘相关配置-》TG登录后搜索服务器地址即可，无需看下面任何内容。
 
-****************************************************************
-*  把本zip文件解壓縮到安卓設備的任意目錄                       *
-*  然後在播放器的點播接口設定中，指定到解壓後目錄中的jsm.json  *
-****************************************************************
-* 每次更新zip都可以覆蓋到同一個目錄，覆蓋后無需重新掃碼就可以繼續使用網盤
-* 可以使用影視的内部http服務器實現zip上傳和自動解壓，方法：用手機或PC打開http://播放器IP:9978/，
-* 然後點擊最後一個TAB(本地)，然後創建一個新文件夾，例如“tvbox”，然後進入"tvbox"，然後創建"js"和"lib"兩個子目錄，
-* 然後點擊“上傳檔案”，把本zip上傳到該目錄就會自動解壓。
 
-================================================================
-以下所有说明不看也可以正常使用本zip，只是给动手能力强的有缘人更多定制化的可能性。默认设置就可以欣赏绝大部分网络资源，只需要切换到“网盘及弹幕设置”这个视频源扫不同网盘的二维码即可。（切换方法：播放器首页点击左上角图标或文字，找到“网盘及弹幕设置”点击）
-================================================================
+==================================
 
-提示0: 多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常.
-提示1：發現影视壳并不能加载最新的jar，如果遇到jar表現異常，或者最新的jar承諾的功能改進沒有實現，請清除播放殼app的緩存后强杀播放壳后再試，清除方法1：在殼app的設置裏點擊“緩存”，清除方法2：設備的應用管理中，清除殼app的數據及緩存。
-提示2：迅雷云盘限制极为严格，不要尝试单账号多用户异地使用，或多线程使用，随时可能封号。
-提示3：zip包内預置的aliproxy從jar内的assets改爲zip内的aliproxy.gz，可以減少jar包對播放器内存的消耗，但因爲aliproxy.gz的釋出需要使用到殼上的proxy功能，所以如果播放設備安裝了多個類似的播放器，可能導致aliproxy釋放出錯或運行出錯。不要嘗試在同一個播放設備上運行多個播放殼，也不要嘗試把本jar加載到同一個播放設備的不同播放殼上。
-提示4：本zip会自动检测系统内核是64还是32位，尽量使用aliproxy的64位版本（不带.64扩展名），但受系统限制，有时自动检测会失败，就会回落到aliproxy.32，如果你确定自己的系统内核是64位的，则可以在tokenm.json中设置"aliproxy_url":"./aliproxy.gz;md5=1"来强制使用64位的aliproxy
-提示5：播放原盘ISO时，可能会呼叫外部播放器，此时需要把原播放器在任务列表中锁定，防止原播放器切入后台被杀掉，具体方法：按任务列表按钮，找到原播放器，点击图标在弹出菜单中选择锁定或点击锁头标志
+本zip内包含了4个平台的独立可执行文件，对应关系为：
+tgsearch.exe     对应Windows X64系列
+tgsearch.x86_64  对应x86_64(amd64)的所有Linux平台，包括但不限于x86软路由、安卓x86版、WSL/WSL2、所有Linux发行版（比如Debian,Ubuntu,Alpine,CentOS)
+tgsearch.arm32v7 对应所有基于arm32或arm64的平台，包括但不限于安卓手机、安卓盒子、安卓电视、WSA、arm路由器、arm服务器，各种基于arm的Linux发行版（比如Debian,Ubuntu,Alpine,CentOS)
+tgsearch.arm64v8 对应所有基于arm64的平台，包括但不限于安卓手机、安卓盒子、安卓电视、WSA、arm路由器、arm服务器，各种基于arm的Linux发行版（比如Debian,Ubuntu,Alpine,CentOS)
 
-可以透过配置中的“網盤及彈幕配置”的視頻源來實現快捷方便的獲取32位token及opentoken的功能。
 
-複製lib/tokentemplate.json成爲lib/tokenm.json，并填寫必要的内容
+==================================
+tgsearch.*包含了若干参数，可以tgsearch -h获取帮助，参数说明：
+-i 指定Telegram API_ID，目前程序中已经预置了生十个儿子的赵霸道赵总贡献的API_ID，无需自己申请。如果一定要自己申请，可以从https://my.telegram.org申请，需要干净翻墙ip或任意翻墙IP情况下打开网页https://www.lumiproxy.com/zh-hans/online-proxy/proxysite/ 使用该网页的页面代理申请
+-H 指定Telegram API_HASH，可以不指定，情况类似-i
+-s 指定Telegram API_SESSION，在首次运行时会自动提示输入手机号，输入后到Telegram App中等待验证码（不是短信验证码），然后输入验证码得到Session，然后就可以用-s参数指定之，在大部分系统环境下，不指定也可以，因为首次获取后会写入.tgsearch_session的配置文件,后续执行会尝试读取本目录下的.tgsearch_session文件
+-P 指定连接Telegram API所需要用到的翻墙代理，代理可以包含前缀和验证，例如http://192.168.1.1:7890 或 socks5://user@pass@192.168.1.1:7890
+-p 等同于-P
+-o 指定本程序监听端口，默认是10199，用于其他程序连接本程序获取TG内容。
+-1 仅尝试验证Telethon API V1 Session, 验证完成后退出
+-2 仅尝试验证Telethon API V2 Session, 验证完成后退出
+-S 指定Telegram API_SESSION_V1，类似-s参数，但用来指定V1的session
+-I 是否提供下载图片服务(默认不开启)，带有本参数时会接受TG群组内的图片下载请求，会消耗本服务器的流量
+-d 调试模式
 
-tokenm.json格式説明：
-{
-"token":"這裏填寫阿里云盤的32位token，也可以不填寫，在播放阿里云盤内容時會彈出窗口，點擊QrCode，用阿里云盤app掃碼",
-"open_token":"這裏填寫通過alist或其他openapi提供方申請的aliyun openapi token",
-"is_vip":true, //是否是阿里云盤的VIP用戶，設置為true后，使用vip_thread_limit設置的數值來并發加速
-"vip_thread_limit":32, //這裏是阿里云盤的轉存原畫并發綫程數
-"vip_thread_limit_night":"19-23=10", //這裏是阿里云盤的轉存原畫夜间并發綫程數, 等号前标识夜间时段，等号后标识线程数
-"quark_thread_limit":32, //這裏是夸克網盤GO代理的并發協程數或java代理的并發綫程數，若遇到賬號被限制並發數，請將此數值改爲10
-"quark_vip_thread_limit":32, //這裏是夸克網盤設置quark_is_vip:true之後的并發綫程數，若遇到賬號被限制并發數，請將此數值改爲10
-"quark_thread_limit_night":"19-23=10", //這裏是夸克網盤GO代理的夜间并發協程數或java代理的并發綫程數，若遇到賬號被限制並發數，請將此數值改爲10
-"quark_vip_thread_limit_night":"19-23=10", //這裏是夸克網盤設置quark_is_guest:false之後的夜间并發綫程數，若遇到賬號被限制并發數，請將此數值改爲10
-"quark_is_guest":false, //本項目設置爲false表示是夸克的VIP或88VIP用戶，使用更快的多綫程加載方式，設置爲true表示是純免費的夸克用戶，使用優化限速的多綫程加載方式
-"vod_flags":"4kz|auto", //這裏是播放阿里雲的畫質選項，4kz代表轉存GO原畫,4ko代表轉存Open原畫,其他都代表預覽畫質,可選的預覽畫質包括qhd,fhd,hd,sd,ld，
-"quark_flags":"4kz|auto", //這裏是播放夸克網盤的畫質選項，4kz代表轉存原畫（GO原畫），其他都代表轉碼畫質,可選的預覽畫質包括4k,2k,super,high,low,normal
-"uc_thread_limit":0,
-"uc_is_vip":false,
-"uc_flags":"4kz|auto",
-"uc_vip_thread_limit":0,
-"thunder_thread_limit":0,
-"thunder_is_vip":false,
-"thunder_vip_thread_limit":0,
-"thunder_flags":"4kz",
-"aliproxy":"這裏填寫外部的加速代理，用於在盒子性能不夠的情況下，使用外部的加速代理來加速播放，可以不填寫",
-"proxy":"這裏填寫用於科學上網的地址，連接openapi或某些資源站可能會需要用到，可以不填寫",
-"open_api_url":"https://api.xhofe.top/alist/ali_open/token", //這是alist的openapi接口地址，也可使用其他openapi提供商的地址。
-"danmu":true,//是否全局開啓阿里云盤所有csp的彈幕支持，聚合類CSP仍需單獨設置，例如Wogg, Wobg
-"quark_danmu":true,//是否全局開啓夸克網盤的所有csp的彈幕支持, 聚合類CSP仍需單獨設置，例如Wogg, Wobg
-"quark_cookie":"這裏填寫通過https://pan.quark.cn網站獲取到的cookie，會很長，全數填入即可。"
-"uc_cookie":"這裏填寫通過https://drive.uc.cn網站登錄獲取的cookie",
-"thunder_username":"這裏填入用戶名或手機號，如果是手機號，記得是類似'+86 139123457'這樣的格式，+86后有空格才對",
-"thunder_password":"密碼",
-"thunder_captchatoken":"首次使用迅雷網盤時，需要使用app彈出的登陸地址去接碼登錄，並獲取captchaToken，具體方法參考alist網站的文檔:https://alist.nn.ci/zh/guide/drivers/thunder.html",
-"pikpak_username":"PikPak網盤的用戶名",
-"pikpak_password":"PikPak網盤的密碼",
-"pikpak_flags":"4kz",
-"pikpak_thread_limit":2,
-"pikpak_vip_thread_limit":2,
-"pikpak_proxy":"用於科學上網連接PikPak網盤的代理服務器地址",
-"pikpak_proxy_onlyapi":false,
-"pan115_cookie":"",
-"pan115_thread_limit":0,
-"pan115_vip_thread_limit":0,
-"pan115_is_vip":false,
-"pan115_flags":"4kz",
-"pan115_auto_delete":true,
-"pan115_delete_code":"",
-"pan115_speed_limit":0,
-"pan115_speed_limit_mobile":10485760,
-"pan_order":"ali|quark|uc|115|yd|thunder|pikpak"
-}
+上述参数也可以使用环境变量来指定具体对应关系为：(除API_SESSION外皆可省略)
+export API_ID=     api_id
+export API_HASH=     api_hash
+export API_SESSION=     api_session
+export API_PROXY=     api_proxy
+export API_SESSION_V1=     api_session_v1
+export API_DOWNLOAD_IMAGE=     api_download_image
+
+
+==================================
+本程序在服务端首次运行需要获取session，需要输入手机号和验证码，因此不能用nohup保活，但可以用screen或tmux保活。在成功获取或指定session后，可以用nohup,screen或tmux保活，具体用法：
+nohup用法: nohup ./tgsearch -P socks5ip:socks5port 2>&1 >/dev/null &
+
+screen用法：screen -S tgsearch ./tgsearch -P socks5ip:socks5port
+screen退出终端不退应用方法： 在screen窗口中按ctrl+a，然后松手再按d
+screen断连后重连方法：screen -r tgsearch
+
+tmux用法：tmux new-session -s tgsearch "./tgsearch -P socks5ip:socks5port"
+tmux退出终端不退应用方法：在tmux窗口中按ctrl+b，然后松手再按d
+tmux断连后重连方法：tmux attach -t tgsearch
+
+==================================
+本程序的arm版本可以直接在安卓设备上运行，可以使用termux或类似的安卓终端软件，直接在终端窗口中执行用来获取session。
+在termux安装后需要在termux终端窗口中执行termux-setup-storage用来获取SD卡访问权限。
+termux无需安装任何发行版，无需debian也无需ubuntu，只要纯净termux安装即可。
+注意：termux不能使用GoolgePlay版本，会权限不足。需要使用github版本或fdroid版本，对应的termux下载地址分别是：
+https://f-droid.org/repo/com.termux_1000.apk
+和
+https://github.com/termux/termux-app/releases
+
+termux获取tgsearch session方法: 
+1.用安卓解压软件把本zip解压到sd卡任意路径，比如/sdcard/tgsearch/
+2.在termux窗口中执行：cd;cp /sdcard/tgsearch/tgsearch.arm32v7 .;chmod u+x tgsearch.arm32v7 
+  注意，以上第2步必须执行，受安卓系统安全限制，任何二进制程序无法在/sdcard路径中直接执行，会报权限不够。
+3.在termux窗口中继续执行：unset LD_PRELOAD;./tgsearch.arm32v7 -P socks5ip:socks5port
+4.后续流程和本文开始讲述步骤一样。
+
+
+==================================
+在通过上述方式获取到session后就可以把session字符串填入影视的网盘配置-》网盘相关配置-》TG API_SESSION 中，然后就会被线路中自带的tgsearch调用到。配置中的API_ID,API_HASH可以省略
+部分手机无法运行pg.xxxx.zip中预置的tgsearch，需要用本zip内的tgsearch.arm64v8替换到pg.xxxx.zip的js/lib中的tgsearch
