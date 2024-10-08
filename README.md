@@ -1,5 +1,36 @@
 # 更新记录 
-* pg.20241008-2127.zip 【对不起，我是阿里不限速网盘资源全秒播
+* tgsearch.docker-20241008-2349.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
+2.TG群组图片代理增加缓存。
+3.docker运行时使用了当前目录下的tmp目录映射到容器内的/tmp，这样不会消耗容器的volume存储。
+4.如果服务器不支持图片代理则使用网盘图标替换。
+5.修复tgsearch在部分手机上无法运行的问题。在termux中运行可以设置export API_FORCE_ANDROID=1;unset LD_PRELOAD;./tgsearch来运行
+* tgsearch.docker.arm64-20241008-2349.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
+2.TG群组图片代理增加缓存。
+3.docker运行时使用了当前目录下的tmp目录映射到容器内的/tmp，这样不会消耗容器的volume存储。
+4.如果服务器不支持图片代理则使用网盘图标替换。
+5.修复tgsearch在部分手机上无法运行的问题。在termux中运行可以设置export API_FORCE_ANDROID=1;unset LD_PRELOAD;./tgsearch来运行
+* tgsearchpack.20241008-2346.zip tgsearch多平台独立运行文件，使用./tgsearch
+-h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：（更多信息查看包内README.txt）
+1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
+2.TG群组图片代理增加缓存。
+3.如果服务器不支持图片代理则使用网盘图标替换。
+4.修复tgsearch在部分手机上无法运行的问题。在termux中运行可以设置export API_FORCE_ANDROID=1;unset LD_PRELOAD;./tgsearch来运行
+5.安卓端运行自动关闭图片缓存并减少缓存数目防止内存溢出。
+* pg.20241008-2344.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 阿里,UC,夸克使用本zip包不限速，阿里原画不需要svip也不用三方权益包，播放阿里内容不需要115账号秒传也不需要115VIP会员，115的分享内容无需付费即可欣赏，115分享大包和阿里分享大包不用建索引全部秒搜，UC原画不需要会员，夸克原画非会员3G以内的视频随意看，88VIP80G以内的视频随便看。所有网盘全自动删除转存垃圾文件，不限次数。所有网盘资源3秒起播让等待归零。可能是地球上唯一一个可以流畅在线播放ISO原盘的zip（注：使用外部播放器播放原盘ISO需要在任务列表中把影视锁定不被杀掉后台才能稳定播放）。注意：不支持仅使用jar，必须zip完整解压使用。网盘原画仅支持原版的影视、OK影视、EasyBox。對本zip内的核心jar的魔改或縫合都會導致網盤原畫不可播放。多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常】
@@ -12,33 +43,8 @@
 5.如果服务端不支持图片代理则使用网盘图标替换。
 6.修复手机本地tgsearch运行错误。
 7.TG搜索csp增加首页和分类页，使用类似Youtube的组织方式，可以全自动搜索关键字了。
-* tgsearchpack.20241008-1757.zip tgsearch多平台独立运行文件，使用./tgsearch
--h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：（更多信息查看包内README.txt）
-1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
-2.TG群组图片代理增加缓存。
-3.如果服务器不支持图片代理则使用网盘图标替换。
-* tgsearch.docker-20241008-1618.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：
-1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
-2.TG群组图片代理增加缓存。
-3.docker运行时使用了当前目录下的tmp目录映射到容器内的/tmp，这样不会消耗容器的volume存储。
-4.如果服务器不支持图片代理则使用网盘图标替换。
-* tgsearch.docker.arm64-20241008-1619.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG
-
-今日更新：
-1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
-2.TG群组图片代理增加缓存。
-3.docker运行时使用了当前目录下的tmp目录映射到容器内的/tmp，这样不会消耗容器的volume存储。
-4.如果服务器不支持图片代理则使用网盘图标替换。
+8.修复tgsearch在部分手机上无法运行的问题。在termux中运行可以设置export API_FORCE_ANDROID=1;unset LD_PRELOAD;./tgsearch来运行
+9.安卓端运行自动关闭图片缓存并减少缓存数目防止内存溢出。
 * pg.20241007-2343.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
