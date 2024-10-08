@@ -1,4 +1,13 @@
 # 更新记录 
+* tgsearch.docker-20241008-1618.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.支持TG群组内图片下载，增加TGAPI V1，用于图片下载，首次运行需要./tgsearch -1获取v1 session，获取后用大写-S指定v1的session。群组图片下载需要tgsearch代理，因此会消耗服务器流量，所以该功能默认关闭，用大写-I可以打开。
+2.TG群组图片代理增加缓存。
+3.docker运行时使用了当前目录下的tmp目录映射到容器内的/tmp，这样不会消耗容器的volume存储。
+4.如果服务器不支持图片代理则使用网盘图标替换。
 * tgsearch.docker.arm64-20241008-1619.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG

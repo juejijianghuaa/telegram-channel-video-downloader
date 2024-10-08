@@ -15,7 +15,7 @@ done
 progdir=`dirname "${prog}"`
 cd "${progdir}"
 
-version=1.2.4-alpine
+version=1.3.2-alpine
 
 found=$(docker images |grep "pandagroove/tgsearch:${version}" |wc -l)
 
@@ -38,6 +38,9 @@ else
 fi
 
 echo "compose:$compose"
+
+mkdir tmp
+chmod 777 tmp
 
 $compose -f docker-compose.yml down >/dev/null 2>&1
 found=$(cat docker-compose.yml |grep "STRINGSESSION"|sed -e "s/.*STRINGSESSION//"|wc -c)

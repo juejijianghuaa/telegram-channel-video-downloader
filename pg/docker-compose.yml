@@ -1,13 +1,18 @@
 services:
         tgsearch:
-                image: "pandagroove/tgsearch:1.2.4-alpine"
+                image: "pandagroove/tgsearch:1.3.2-alpine"
                 environment:
                         - API_ID=
                         - API_HASH=
                         - STRINGSESSION=
+                        - API_SESSION_V1=
+                        - API_DOWNLOAD_IMAGE=
+                        - API_DOWNLOAD_VIDEO=
                         - API_PROXY=
                 ports:
                         - 10199:10199
                 expose:
                         - "10199"
                 restart: always
+                volumes:
+                        - ./tmp:/tmp
