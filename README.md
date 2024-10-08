@@ -1,4 +1,18 @@
 # 更新记录 
+* tgsearch.docker-20241009-0310.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.修复tgsearch群组图片下载问题。
+2.巨幅优化tgsearch图片加载和消息搜索速度。
+* tgsearch.docker.arm64-20241009-0311.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+讨论组:  https://t.me/pandagroovechat
+发布频道: https://t.me/PandaGroovePG
+
+今日更新：
+1.修复tgsearch群组图片下载问题。
+2.巨幅优化tgsearch图片加载和消息搜索速度。
 * tgsearchpack.20241009-0301.zip tgsearch多平台独立运行文件，使用./tgsearch
 -h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
 讨论组:  https://t.me/pandagroovechat
