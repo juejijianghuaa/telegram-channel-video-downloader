@@ -15,7 +15,7 @@ done
 progdir=`dirname "${prog}"`
 cd "${progdir}"
 
-version=1.3.3-alpine
+version=1.3.4-alpine
 
 compose=""
 have=$(docker compose -h |grep compose|wc -l)
