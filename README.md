@@ -1,21 +1,23 @@
 # 更新记录 
-* tgsearch.docker-20241009-1602.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+* tgsearch.docker-20241009-2000.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 
 今日更新：
 1.修复tgsearch群组图片下载问题。
 2.巨幅优化tgsearch图片加载和消息搜索速度。
-3.修复tgsearch内部并发问题。
-* tgsearch.docker.arm64-20241009-1603.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
+3.优化tgsearch并发逻辑
+4.安卓上运行tgsearch也可以使用文件缓存了，极大节约内存。
+* tgsearch.docker.arm64-20241009-2000.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 
 今日更新：
 1.修复tgsearch群组图片下载问题。
 2.巨幅优化tgsearch图片加载和消息搜索速度。
-3.修复tgsearch内部并发问题。
-* tgsearchpack.20241009-1559.zip tgsearch多平台独立运行文件，使用./tgsearch
+3.优化tgsearch并发逻辑
+4.安卓上运行tgsearch也可以使用文件缓存了，极大节约内存。
+* tgsearchpack.20241009-1958.zip tgsearch多平台独立运行文件，使用./tgsearch
 -h可以看帮助，也支持环境变量赋值（防止被坏人偷窥hash），具体环境变量分别是API_ID,API_HASH,STRINGSESSION,API_PROXY。
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
@@ -23,8 +25,9 @@
 今日更新：（更多信息查看包内README.txt）
 1.修复tgsearch群组图片下载问题。
 2.巨幅优化tgsearch图片加载和消息搜索速度。
-3.修复tgsearch内部并发问题。
-* pg.20241009-1558.zip 【对不起，我是阿里不限速网盘资源全秒播
+3.优化tgsearch并发逻辑
+4.安卓上运行tgsearch也可以使用文件缓存了，极大节约内存。
+* pg.20241009-1957.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 阿里,UC,夸克使用本zip包不限速，阿里原画不需要svip也不用三方权益包，播放阿里内容不需要115账号秒传也不需要115VIP会员，115的分享内容无需付费即可欣赏，115分享大包和阿里分享大包不用建索引全部秒搜，UC原画不需要会员，夸克原画非会员3G以内的视频随意看，88VIP80G以内的视频随便看。所有网盘全自动删除转存垃圾文件，不限次数。所有网盘资源3秒起播让等待归零。可能是地球上唯一一个可以流畅在线播放ISO原盘的zip（注：使用外部播放器播放原盘ISO需要在任务列表中把影视锁定不被杀掉后台才能稳定播放）。注意：不支持仅使用jar，必须zip完整解压使用。网盘原画仅支持原版的影视、OK影视、EasyBox。對本zip内的核心jar的魔改或縫合都會導致網盤原畫不可播放。多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常】
@@ -33,7 +36,8 @@
 1.修复tgsearch群组图片下载问题。
 2.巨幅优化tgsearch图片加载和消息搜索速度。
 3.增加tgsearch媒体地址域名，用于套cf使用免费流量，减少vps的流量消耗。可以用tgsearch_media_url配置或网盘相关配置里设置。
-4.修复tgsearch内部并发逻辑问题。
+4.优化tgsearch并发逻辑。
+5.手机版tgsearch也可以使用文件缓存了，极大节约内存。
 * tgsearch.docker-20241008-2349.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
