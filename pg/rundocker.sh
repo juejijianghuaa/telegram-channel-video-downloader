@@ -15,7 +15,7 @@ done
 progdir=`dirname "${prog}"`
 cd "${progdir}"
 
-version=1.3.8-alpine
+version=1.3.3-alpine
 
 found=$(docker images |grep "pandagroove/tgsearch:${version}" |wc -l)
 
