@@ -1,6 +1,6 @@
 services:
         tgsearch:
-                image: "pandagroove/tgsearch:1.3.6-alpine"
+                image: "pandagroove/tgsearch:1.3.7-alpine"
                 environment:
                         - API_ID=
                         - API_HASH=
