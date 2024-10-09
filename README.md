@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20241009-1016.zip 【对不起，我是阿里不限速网盘资源全秒播
+* pg.20241009-1212.zip 【对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
 阿里,UC,夸克使用本zip包不限速，阿里原画不需要svip也不用三方权益包，播放阿里内容不需要115账号秒传也不需要115VIP会员，115的分享内容无需付费即可欣赏，115分享大包和阿里分享大包不用建索引全部秒搜，UC原画不需要会员，夸克原画非会员3G以内的视频随意看，88VIP80G以内的视频随便看。所有网盘全自动删除转存垃圾文件，不限次数。所有网盘资源3秒起播让等待归零。可能是地球上唯一一个可以流畅在线播放ISO原盘的zip（注：使用外部播放器播放原盘ISO需要在任务列表中把影视锁定不被杀掉后台才能稳定播放）。注意：不支持仅使用jar，必须zip完整解压使用。网盘原画仅支持原版的影视、OK影视、EasyBox。對本zip内的核心jar的魔改或縫合都會導致網盤原畫不可播放。多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常】
@@ -7,7 +7,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复tgsearch群组图片下载问题。
 2.巨幅优化tgsearch图片加载和消息搜索速度。
-3.增加tgsearch媒体地址域名，用于套cf使用免费流量，减少vps的流量消耗。
+3.增加tgsearch媒体地址域名，用于套cf使用免费流量，减少vps的流量消耗。可以用tgsearch_media_url配置或网盘相关配置里设置。
 * tgsearch.docker-20241009-0310.zip tgsearch的docker版，对应amd64或arm64平台运行，解压后使用sh rundocker.sh或sh rundocker.arm64.sh运行，会自动导入image。运行前需要手工修改docker-compose.yml或docker-compose.arm64.yml文件，把session和proxy放入。（api_id,api_hash,proxy可省略)
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG
