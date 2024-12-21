@@ -831,7 +831,7 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "live.ipv6",
+				"name": "fmm.live.ipv6",
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 				
@@ -840,7 +840,7 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "live.ipv6.m3u",
+				"name": "fmm.live.ipv6.m3u",
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/proxy/https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 				
