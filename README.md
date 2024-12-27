@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20241226-2111.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20241227-2001.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -8,6 +8,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化豆瓣显示，去掉“第一季”后缀，极大提高搜索命中率。
+2.优化豆瓣搜索，把“第N季”以及数字结尾的剧改为不带数字后缀，原季数放入评分行。
 * pg.20241225-1533.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
