@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20241228-1108.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20241228-1146.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -8,6 +8,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.托肥羊的福，同步ITV相关优化。修复ITV的IPv6解析大BUG，极大提高IPv6解析成功率。需要网盘配置》其他配置》重新载入GO代理》点击allinone
+2.当重载allinone时，强制刷新dns缓存。确保用上高端的IPv6赛道不和ipv4抢带宽。
 * pg.20241227-2050.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
