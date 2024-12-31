@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20241231-0909.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20241231-1506.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -8,6 +8,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.托肥羊的福，优化huaya和yy。继续大幅度优化ITV的IPv6解析。需要网盘设置》其他设置》重新载入GO》点击allinone。
+2.增加虎斑。
 * pg.20241230-2301.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
