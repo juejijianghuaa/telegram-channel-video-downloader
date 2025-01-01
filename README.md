@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250101-1953.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250101-2100.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -12,6 +12,7 @@
 3.修复大量错误，优化使用体验。
 4.修复观影磁力无法播放问题
 5.修复不太灵（需要在弹出页面中输入验证码）
+6.内置直播改为最强直播，需要网盘配置》其他配置》重新载入GO代理》点击allinone
 * pg.20241231-1806.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
