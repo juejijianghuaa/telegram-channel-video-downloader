@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250103-1142.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250103-1629.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -9,6 +9,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1..优化网络切换后的直播解析缓存可能引起的播放错误。需要网盘配置》其他设置》重新载入GO》点击allinone
 2.巨幅优化最强直播中的AV3A HDR频道表现，起播阶段的卡顿也消失了。
+3.兼容不太灵土盾的新形态。
 * pg.20250102-2007.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
