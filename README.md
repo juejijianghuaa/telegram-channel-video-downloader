@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250105-1644.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250105-2032.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
