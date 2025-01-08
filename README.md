@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250107-2108.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250108-0956.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 1.大幅优化最强直播DNS解析，增强了IPV6解析稳定性，提高了IPV4解析成功率，极大减少解析嗅探次数。
 2.修复当嗅探失败时没有做普通解析之bug，提高了无法嗅探的盒子和电视的最强直播播放成功率。
 3.最强直播当嗅探不可用时增加ip138的IPv4查询结果作为备选IPV4参与优选。需要网盘设置》其他设置》重新载入GO》点击allinone
+4.修复AV3A转码频道没有5.1的问题。
 * pg.20250106-1642.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
