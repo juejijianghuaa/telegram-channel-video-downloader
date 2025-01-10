@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250110-1929.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250110-2033.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -9,6 +9,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.最强直播支持回看。
 2.最强直播回看改为jsm.json中配置catchup的方式。因直播的敏感性，为防止不法商贩胡乱集成本群二进制贩卖导致本宝宝承受不该承受的风险，因此最新的allinone和aliproxy必须配合使用，两者要一起更新。在网盘设置-》其他设置》重新载入GO》点击aliproxy，重启后再点击allinone。
+3.最强直播的华数4k频道改为转码播放（增加多线程加速）
 * pg.20250109-1657.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
