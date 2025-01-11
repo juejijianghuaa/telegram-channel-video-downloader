@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250111-1012.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250111-1106.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -8,6 +8,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化观影播放列表。
+2.最强直播支持当天及前一天回看。前一天回看请切换直播源到“最强国内直播(-1天回看)”
 * pg.20250110-2237.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
