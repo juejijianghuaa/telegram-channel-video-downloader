@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250112-1029.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250112-1959.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,8 @@
 1.优化观影播放列表。
 2.最强直播支持当天及前一天回看。前一天回看请切换直播源到“最强国内直播(-1天回看)”
 3.zouming.ipv6增加7天回看。
+4.增加CIPTV，支持7天回看。
+5.CIPTV修复几个鸟. 需要网盘设置-》其他设置》重新载入GO》点击allinone。该直播估计能看的时间不会很久，只为共襄盛举。
 * pg.20250110-2237.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
