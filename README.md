@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250116-1747.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250116-2119.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,7 +10,8 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化CIPTV播放稳定性。
 2.修复大量CIPTV频道无法播放问题（包括ys11,15).
-3.优化CIPTV频道列表。需要网盘配置》相关配置》重载GO代理》点击allinone。
+3.优化CIPTV频道列表。
+4.大幅优化最强国内直播之DNS解析效率，并修复了因运营商策略调整导致的解析错误。建议立即应用本次更新，否则可能随时失去IPV6播放能力。需要网盘配置》相关配置》重载GO代理》点击allinone然后再次进入并点击dnscache.json
 * pg.20250115-1941.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
