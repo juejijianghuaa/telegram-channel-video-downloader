@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250118-2305.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250118-2323.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化观影在TV上无图问题。优化观影域名。
 2.网盘配置》相关配置 增加观影Cookie配置功能。
+3.优化CIPTV稳定性。需要 网盘设置》其他设置》重新载入GO代理：点击allinone来重新载入allinone二进制
 * pg.20250117-1027.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
