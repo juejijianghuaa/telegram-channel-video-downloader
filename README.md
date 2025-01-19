@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250119-1529.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250119-1911.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化CIPTV稳定性增强提速版。需要网盘设置》相关设置》重新载入GO代理》点击allinone来重新加载allinone二进制。
 2.修复Quark和UC自己盘内容无法加载外挂字幕问题。
+3.修复不太灵
 * pg.20250118-2323.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
