@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250121-2015.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250121-2142.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -13,6 +13,8 @@
 3.增加自定义m3u支持，可以在网盘设置》直播设置中设置自定义M3U的URL，可以是本机地址，例如http://127.0.0.1:9978/file/Download/tv.m3u。
 4.增加域名解析提示。
 5.修复高码缓存错误。
+6.修改fmm地址。
+7.优化所有直播缓存。
 * pg.20250121-0810.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
