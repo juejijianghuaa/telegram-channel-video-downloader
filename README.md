@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250121-2142.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250121-2349.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -15,6 +15,8 @@
 5.修复高码缓存错误。
 6.修改fmm地址。
 7.优化所有直播缓存。
+8.优化ITV解析策略。
+9.移除最强国内直播中的所有CIPTV频道，更新后清除播放器缓存重启播放器加载最新频道列表。
 * pg.20250121-0810.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
