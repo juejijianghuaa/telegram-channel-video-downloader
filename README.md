@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250122-1015.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250122-1301.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.增加FMM7天回看。
 2.加回CIPTV，感谢DaBenDan。清除播放器缓存后重启播放器以便重新加载列表。
+3.升级115驱动。
 * pg.20250121-2349.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
