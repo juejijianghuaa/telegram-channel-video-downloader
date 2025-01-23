@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250123-2100.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250123-2152.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -13,6 +13,7 @@
 3.修复Youtube的4K和HDR画质无法出现问题。
 4.优化最强直播中ITV的稳定性。
 5.使用了一些小小的黑科技尝试提高部分直播的稳定性。如果该项技术取得成功那么将彻底解决大量直播的403问题，同时也可以证明播放器直接对接直播源之不靠谱性。走别人的路，让别人无路可走。
+6.修复ITV回看。
 * pg.20250122-2251.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
