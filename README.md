@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250125-1434.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250125-1556.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复二进制并发加载的大BUG，极大提高初始二进制加载的成功率。磁力加速改为tar.xz模式并取消载入内存的成功提示。
 2.增加小米
+3.修复订阅节点无法选择问题。
 * pg.20250124-2245.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
