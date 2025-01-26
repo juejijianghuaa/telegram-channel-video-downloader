@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250126-1255.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250126-1327.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -9,6 +9,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.优化csp排序，去掉失效站点，观影支持UI里自定义域名。
+2.网盘缓存文件改为本线路专属。
 * pg.20250126-0016.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
