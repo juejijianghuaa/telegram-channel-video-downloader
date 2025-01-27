@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250127-1458.zip 对不起，我是阿里不限速网盘资源全秒播
+* pg.20250127-2240.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -9,6 +9,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.增加4K影库
+2.修复CIPTV
 * pg.20250126-2255.zip 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
