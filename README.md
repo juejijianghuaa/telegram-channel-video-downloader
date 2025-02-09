@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250209-1322.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250209-1436.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.加回csp_Youtube中的NewPipe引擎，解决了低版本盒子/电视无法使用NewPipe的问题，Youtube加载成功率大幅提高。尤其YTB直播的搜索并播放成功率接近100%
+2.csp_Youtube点播改为老引擎优先。
 * pg.20250207-1507.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
