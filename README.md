@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250225-2300.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250225-2355.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -13,18 +13,6 @@
 2.UC支持ISO播放
 3.UC支持设置夜间线程数
 4.Quark和UC自动探测是否VIP，并做针对性的chunkSize优化。
-* pg.20250225-1621.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
-讨论组:  https://t.me/pandagroovechat
-发布频道: https://t.me/PandaGroovePG                                                                                   
-内置订阅推荐：https://pgicloud.github.io
-内置tgsearch下载链接：https://t.me/PandaGroovePG/1202
-本频道只有上述一个讨论组，其他任何讨论组或Q群微群均与本频道无关
-
-【 阿里,夸克使用本zip包不限速，阿里原画不需要svip也不用三方权益包。可能是地球上唯一一个可以流畅在线播放ISO原盘的zip（注：使用外部播放器播放原盘ISO需要在任务列表中把影视锁定不被杀掉后台才能稳定播放）。注意：不支持仅使用jar，必须zip完整解压使用。网盘原画仅支持原版的影视、OK影视。對本zip内的核心jar的魔改或縫合都會導致網盤原畫及直播不可播放。多个播放器或多次外挂本zip情况下，需要只保留一个播放器或1个外挂运行，其他的要主动杀掉，否则可能出现网盘播放异常。因115系统升级，扫码方式可能无法看到自己115网盘内容，需要抓取115网页版的cookie（包含KID字段）然后黏贴cookie到网盘设置-》115设置】
-
-今日更新内容：(更多内容阅读zip内的README.txt)
-1.Quark和UC支持TVToken播放，取材自Alist代码，创意来自真心。需要在配置中心掃TVToken的碼碼。当TVToken失效时自动回落Cookie播放。
-2.UC支持ISO播放
 * pg.20250224-2029.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
