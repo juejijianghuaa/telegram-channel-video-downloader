@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250313-1353.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250313-1454.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -12,6 +12,7 @@
 1.支持123网盘。
 2.玩偶系csp支持123網盤。其他需要支持123的csp可以群内告知本寶寶。
 3.修復tgsearch不識別123鏈接問題。
+4.兼容123分享中"?提取码:xxxx"这种格式。
 * pg.20250308-1152.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
