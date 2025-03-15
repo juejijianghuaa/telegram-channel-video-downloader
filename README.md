@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250315-0709.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250315-1233.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复TG豆瓣没有123的问题。
+2.修复部分豆瓣影视/剧集识别错误。
 * pg.20250313-2029.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
