@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250317-0053.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250317-0816.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -12,6 +12,7 @@
 1.增加天逸搜和雷鲸。
 2.修复115
 3.修复带有域名配置功能的CSP的效率低下问题。
+4.修复Panta蜡笔及所有自定义域名csp
 * pg.20250316-1831.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
