@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250319-0225.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250319-1048.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.小小黑科技再次加持最强直播，起播速度大幅提高，播放成功率大幅提高，移动、联通、电信皆可播放。各CDN绝大部分皆可播放。
+2.优化最强直播解析缓存时间，减少解析次数。
 * pg.20250318-2148.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
