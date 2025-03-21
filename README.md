@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250321-2258.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250321-2350.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -11,6 +11,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.UC增加UT配置，可以以各种方式获取UT然后填入。例如PC安装UC网盘应用，然后抓包看ut。因宝宝自己是UC尊贵的付费VIP因此没有条件测试，请有缘人自行尝试。（感谢真心提供的信息）
 2.另外说一下最强直播中的ITV频道不需要准备全网通IP，只要播放设备嗅探能力正常，任何获取到的IP都是全网通IP。
+3.配置了UC UT情况下自动忽略UC TVToken。
 * pg.20250320-1728.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
