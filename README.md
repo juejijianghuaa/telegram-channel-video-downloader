@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250323-2200.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250323-2233.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -11,6 +11,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.alist jar支持加载iso等多种媒体文件并外调kodi等播放器播放，您挂载在alist里的115vip精心收集的iso原盘有救了。不需要cd2，不需要webdav等各种劳什子，直接播放。蓝光导航。
 2.继续优化最强直播。
+3.修复alist jar加载的iso无法直接被kodi播放问题。
 * pg.20250323-1641.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
