@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250324-0951.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250324-1437.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,7 +10,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复校长影视(csp_XiaoZhang)
-2.修复最强国内直播部分频道观看困难问题（依然无需全网通IP)
+2.彻底优化最强国内直播ITV频道，首次起播需要较长时间，如果遇到频道无法播放可以切换到其他频道再切回来。移动网络测试央视卫视正常，其他网络随缘。非央卫频道随缘。
 * pg.20250323-2233.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
