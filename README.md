@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250324-2314.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250325-1057.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
