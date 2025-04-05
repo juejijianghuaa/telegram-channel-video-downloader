@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250405-0854.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250405-1549.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -11,6 +11,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复123分享排序问题。
 2.alist在点击了文件名排序后默认使用升序排序。115分享的搜索结果中，如果结果是文件夹，则注释的第一段是完整的分享路径。
+3.兼容h5.cloud.189.cn的分享格式。（海绵）
 * pg.20250404-2212.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
