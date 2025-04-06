@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250406-0855.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250406-1630.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,7 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复115分享局部搜索有时失败的问题。
+2.修复B站直播。点击直播图标》点击屏幕底部（或长按遥控器确定键》点击最强直播》点击肥羊B站直播。
 * pg.20250405-2043.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
