@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250409-0838.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250409-1049.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -12,6 +12,7 @@
 1.修复校长(csp_XiaoZhang)
 2.删除大量无效csp
 3.全局搜索时默认不开启webview搜索。
+4.恢复皮皮虾，小米
 * pg.20250408-1353.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
