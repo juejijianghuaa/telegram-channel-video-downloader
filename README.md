@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250409-1404.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250409-1656.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -13,6 +13,7 @@
 2.删除大量无效csp
 3.全局搜索时默认不开启webview搜索。
 4.恢复皮皮虾，小米
+5.修复带有“合集”字样的分享如果带有分享码时无法加载的问题。
 * pg.20250408-1353.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
