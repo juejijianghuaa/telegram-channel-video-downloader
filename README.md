@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250410-2139.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250410-2251.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -11,6 +11,7 @@
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.修复itv.
 2.超大幅度优化ITV播放体验，需要到“网盘配置》直播配置》打开实时转码”。打开实时转码后，ITV采用双线程加载大幅度减少晚高峰播放卡顿并会把声音偏小的AAC转码成嘹亮的AC3或EAC3（建议用EAC3转码更快）
+3.修复GO加速器的一处长期积累的BUG，提高所有网盘原画播放速度。
 * pg.20250409-2030.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
