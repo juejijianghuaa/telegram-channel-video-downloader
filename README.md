@@ -1,5 +1,5 @@
 # 更新记录 
-* pg.20250416-1154.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
+* pg.20250416-1308.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
 内置订阅推荐：https://pgicloud.github.io
@@ -10,6 +10,8 @@
 
 今日更新内容：(更多内容阅读zip内的README.txt)
 1.可以配置TG搜素结果是否展示海报，配置中心》网盘相关配置
+2.优化ITV解析。
+3.修复TG豆瓣搜索结果海报不受控的问题。
 * pg.20250414-1805.zip 对不起，我是顶级视听控，阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
 发布频道: https://t.me/PandaGroovePG                                                                                   
